@@ -5,13 +5,14 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.java" },
-  { import = "astrocommunity.pack.spring-boot" },
-  { import = "astrocommunity.test.neotest" },
+  -- { import = "astrocommunity.pack.spring-boot" },
+  { import = "astrocommunity.editing-support.undotree" },
   -- import/override with your plugins folder
 }
