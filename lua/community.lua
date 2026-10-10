@@ -9,10 +9,15 @@ return {
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.java" },
-  -- { import = "astrocommunity.pack.spring-boot" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.spring-boot" },
   { import = "astrocommunity.editing-support.undotree" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.editing-support.vim-move" },
+  { import = "astrocommunity.markdown-and-latex.markview-nvim" },
+  { import = "astrocommunity.utility.live-server-nvim" },
 }
